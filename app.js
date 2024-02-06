@@ -15,6 +15,7 @@ const bookingRouter = require('./routes/bookingRoutes');
 const hpp = require('hpp');
 const cookieParser = require('cookie-parser');
 /////
+//Starting Express App
 const app = express();
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
